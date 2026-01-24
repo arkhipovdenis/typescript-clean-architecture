@@ -1,0 +1,34 @@
+{
+  "name": "typescript-clean-architecture",
+  "version": "1.0.0",
+  "description": "Universal TypeScript Clean Architecture template for any JavaScript/TypeScript application",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write src",
+    "format:check": "prettier --check src",
+    "test": "echo \"No tests yet — add your test runner here\""
+  },
+  "keywords": [
+    "typescript",
+    "clean-architecture",
+    "ddd",
+    "domain-driven-design",
+    "vertical-slice-architecture",
+    "template",
+    "frontend",
+    "backend",
+    "nodejs"
+  ],
+  "author": "Denis Arkhipov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arkhipovdenis/typescript-clean-architecture.git"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3"
+  }
+}
